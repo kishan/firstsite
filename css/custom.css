@@ -1,4 +1,15 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
+.grayscale {
+    filter: grayscale(65%); /* Current draft standard */
+    -webkit-filter: grayscale(65%); /* New WebKit */
+    -moz-filter: grayscale(65%);
+    -ms-filter: grayscale(65%); 
+    -o-filter: grayscale(65%); /* Not yet supported in Gecko, Opera or IE */ 
+    /*filter: url(resources.svg#desaturate); /* Gecko */*/
+    /*filter: gray; /* IE */*/
+    /*-webkit-filter: grayscale(1); /* Old WebKit */*/
+}
+
 body {
   padding-top: 50px;
 }
